@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 0.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.supervisor {
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.teamBuilder {
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.karma {
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.calculator {
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.header-title {
+    color: hsl(229, 6%, 66%);
+}
+
+.header-subtitle {
+    letter-spacing: 1px;
+}
+
+.header-text {
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    line-height: 1.5;
+}
+
+#icon-supervisor {
+    padding-left: 240px;
+    padding-top: 15px;
+}
+
+#icon-team-builder {
+    padding-left: 240px;
+    padding-top: 15px;
+}
+
+#icon-karma {
+    padding-left: 240px;
+    padding-top: 15px;
+}
+
+#icon-calculator {
+    padding-left: 240px;
+    padding-top: 15px;
+}
+
+.supervisor-text,
+.teamBuilder-text,
+.karma-text,
+.calculator-text {
+    color: hsl(229, 6%, 66%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.supervisor-title,
+.teamBuilder-title,
+.karma-title,
+.calculator-title {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
